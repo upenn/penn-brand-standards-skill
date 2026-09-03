@@ -1,6 +1,6 @@
 # Penn Brand Standards — Agent Skill
 
-An [agent skill](https://code.claude.com/docs/en/skills) that packages the University of Pennsylvania's official brand standards so AI coding assistants (ZCode, Claude Code, and compatible agents) apply them automatically when building or reviewing Penn-branded work.
+An [agent skill](https://code.claude.com/docs/en/skills) that packages the University of Pennsylvania's official brand standards so AI coding assistants (Claude Code and compatible agents) apply them automatically when building or reviewing Penn-branded work.
 
 Instead of hoping the model remembers "Penn red and blue," the skill puts the authoritative values and rules in context on demand:
 
@@ -25,7 +25,7 @@ cp -R penn-brand-standards-skill/penn-brand-standards ~/.agents/skills/
 cp -R penn-brand-standards-skill/penn-brand-standards <project>/.agents/skills/
 ```
 
-ZCode and Claude Code both discover skills in `.agents/skills/` (project) and `~/.agents/skills/` (personal).
+Claude Code and compatible agents discover skills in `.agents/skills/` (project) and `~/.agents/skills/` (personal).
 
 ## Usage
 
