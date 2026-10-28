@@ -7,6 +7,8 @@ description: Apply the official University of Pennsylvania (Penn) brand standard
 
 Official source: https://branding.web-resources.upenn.edu (Brand Guidelines PDF updated Aug 13, 2025). Everything below is derived from that site. When you follow these rules the output is brand-compliant; when a request conflicts with them, flag the conflict and cite the rule — do not silently improvise on the identity.
 
+Some branding exceptions may apply based on how centers and departments are funded or represented. Don't guess at or invent an exception: apply the standards below. If a center's or department's existing branding departs from them, say an exception may apply rather than calling it non-compliant, and forward any questions to University Communications (ucomms-web@upenn.edu).
+
 ## 1. Colors
 
 Penn's identity is built on two official colors. Everything else is support.
