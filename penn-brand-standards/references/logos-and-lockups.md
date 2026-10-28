@@ -75,6 +75,8 @@ Pattern options from the guide: (FIG 1) Penn Mark replaced by department name, s
 
 **Centers, departments, and divisions may not create their own identity systems.** Logos approved under pre-2020 guidelines should be revised to this format as soon as practicable. Limited exceptions for cultural organizations with unique external-audience missions may incorporate Penn colors, insignia, name, or font — but must not compromise brand integrity.
 
+A small number of other exceptions apply based on how centers and departments are funded or represented. They are rare and their details aren't published here. Don't assume one applies; forward any questions to ucomms-web@upenn.edu.
+
 ## School logos
 
 - The 12 schools each have approved lockups: school name + separation line + University of Pennsylvania logotype.
