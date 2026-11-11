@@ -1,13 +1,13 @@
 ---
 name: penn-brand-standards
-description: Apply the official University of Pennsylvania (Penn) brand standards when creating or reviewing any Penn-branded work — websites, web pages, HTML emails, documents, presentations, posters, letterhead, business cards, merchandise mockups. Covers Penn Red #990000 and Penn Blue #011F5B, the web accent palette, official typography (EB Garamond/Roboto on the web, Perpetua/ITC Stone Serif for the identity), logo variants and usage rules, stationery specs, and required web footer links. Use whenever the user mentions Penn, UPenn, University of Pennsylvania, Quakers, or asks for Penn-branded / red-and-blue university styling — even if they don't say "brand".
+description: Apply the official University of Pennsylvania (Penn) brand standards when creating or reviewing any Penn-branded work — websites, web pages, HTML emails, documents, presentations, posters, letterhead, business cards, merchandise mockups. Covers Penn Red #990000 and Penn Blue #011F5B, the web accent palette, official typography (EB Garamond/Roboto on the web, Perpetua/ITC Stone Serif for the identity), logo variants and usage rules, stationery specs, required web footer links, and merchandise licensing rules (licensed vendors, Penn Licensing approval). Use whenever the user mentions Penn, UPenn, University of Pennsylvania, Quakers, or asks for Penn-branded / red-and-blue university styling — even if they don't say "brand".
 ---
 
 # Penn Brand Standards
 
-Official source: https://branding.web-resources.upenn.edu (Brand Guidelines PDF updated Aug 13, 2025). Everything below is derived from that site. When you follow these rules the output is brand-compliant; when a request conflicts with them, flag the conflict and cite the rule — do not silently improvise on the identity.
+Official source: https://branding.web-resources.upenn.edu (Brand Guidelines PDF updated Aug 13, 2025). Everything below is derived from that site, except the merchandise rules, which come from Penn Business Services' licensing toolkit (Aug 2026). When you follow these rules the output is brand-compliant; when a request conflicts with them, flag the conflict and cite the rule — do not silently improvise on the identity.
 
-Exceptions to these standards are rare. A small number apply based on how centers and departments are funded or represented. Never assume, suggest, or invent an exception, and never treat the possibility of one as a reason to depart from the standards: apply them as written and flag any deviation. If someone believes an exception covers their center or department, direct them to University Communications (ucomms-web@upenn.edu) to confirm.
+Exceptions to these standards are rare. A small number apply based on how centers and departments are funded or represented. Never assume, suggest, or invent an exception, and never treat the possibility of one as a reason to depart from the standards: apply them as written and flag any deviation. If someone believes an exception covers their center or department, direct them to University Communications (ucomms-web@upenn.edu) to confirm. For merchandise and promotional products, Penn Licensing handles exceptions instead; direct those questions to PennBranding@upenn.edu.
 
 ## 1. Colors
 
@@ -102,8 +102,8 @@ Applies to any page presented as an official Penn page:
 
 - "University of Pennsylvania" is the full legal name; "Penn" is the sanctioned short form. Penn Carey Law: short form "Penn Carey Law", long form "University of Pennsylvania Carey Law School" (effective Sept 1, 2022).
 - The University regulates use of its names, school/program names, shield, and insignia — oversight rests with the Office of the University Secretary (policy: https://secretary.upenn.edu/trustees-governance/use-university-name).
-- Merchandise bearing the Penn name or marks must be produced by a licensed vendor (Business Services: https://www.business-services.upenn.edu/services/penn-branded-merchandise-licensing).
-- Student groups using Penn names/insignia need approval from the Office of Student Affairs / VPUL (vpul-pennosa@pobox.upenn.edu).
+- Merchandise and promotional products bearing the Penn name or marks must be bought from a licensed vendor and approved by Penn Licensing in the Division of Business Services (PennBranding@upenn.edu; https://www.business-services.upenn.edu/services/penn-branded-merchandise-licensing). Before designing, mocking up, or advising on any merchandise, read `references/merchandise.md`.
+- Student groups using Penn names/insignia need approval from the Office of Student Affairs / VPUL (vpul-pennosa@pobox.upenn.edu) and follow OSA's student brand guidelines: https://universitylife.upenn.edu/student-brand-guidelines/.
 - Logo use is authorized for University community members in applications supporting the University's mission; the University may deny uses harmful to its interests.
 
 ## 6. Reference files
@@ -113,6 +113,7 @@ Read these when the task touches their domain (don't read them otherwise):
 - **`references/logos-and-lockups.md`** — every logo variant, department/school lockup rules, co-branding, restricted symbols, and the full do's & don'ts list.
 - **`references/stationery-and-print.md`** — exact business card, letterhead, and envelope specs (dimensions, margins, type sizes, paper stock) for print deliverables.
 - **`references/web-identity.md`** — central web identity details: palette proportions, typography pairings, required footer, and what not to copy from the homepage.
+- **`references/merchandise.md`** — merchandise and promotional products: licensed vendors, Penn Licensing approval and timeline, design rules, and what's not allowed.
 
 ## 7. Quick checklist
 
@@ -124,3 +125,4 @@ Before delivering any Penn-branded artifact, verify:
 - [ ] Logo is an official file, unmodified, in an allowed color treatment
 - [ ] Web deliverables include the homepage link, logo, and five footer links
 - [ ] Blue-dominant color balance; red and gold used deliberately, not liberally
+- [ ] Merchandise: licensed vendor, Penn marks kept separate from other artwork, and Penn Licensing approval (see `references/merchandise.md`)

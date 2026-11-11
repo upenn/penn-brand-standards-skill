@@ -11,6 +11,7 @@ Instead of hoping the model remembers "Penn red and blue," the skill puts the au
 - **Stationery specs** — business card, letterhead, and envelope dimensions, margins, type sizes, and paper stock for print vendors
 - **Web identity requirements** — the five required footer links, palette proportions, and why you shouldn't clone the upenn.edu homepage
 - **Name use & approvals** — short-form naming, licensing, student-group sign-offs, and restricted symbols (seal, Split P)
+- **Merchandise & promotional products** — licensed-vendor and Penn Licensing approval requirements, review timelines, and merch design rules (separate event artwork, no Split P or LOVE statue, quote limits)
 
 ## Install
 
@@ -37,7 +38,7 @@ The skill triggers automatically whenever you mention Penn, UPenn, University of
 
 > /penn-brand-standards Can we print the Penn logo in gold for our symposium poster?
 
-The skill uses progressive disclosure: a compact `SKILL.md` carries the values needed for most tasks, while three reference files (`references/logos-and-lockups.md`, `references/stationery-and-print.md`, `references/web-identity.md`) hold deep detail the agent reads only when the task calls for it.
+The skill uses progressive disclosure: a compact `SKILL.md` carries the values needed for most tasks, while four reference files (`references/logos-and-lockups.md`, `references/stationery-and-print.md`, `references/web-identity.md`, `references/merchandise.md`) hold deep detail the agent reads only when the task calls for it.
 
 ## Structure
 
@@ -47,12 +48,13 @@ penn-brand-standards/
 └── references/
     ├── logos-and-lockups.md              # Variants, lockups, restricted symbols, approvals
     ├── stationery-and-print.md           # Business cards, letterhead, envelopes, print colors
-    └── web-identity.md                   # Web palette, fonts, required footer links
+    ├── web-identity.md                   # Web palette, fonts, required footer links
+    └── merchandise.md                    # Licensed vendors, Penn Licensing approval, merch design rules
 ```
 
 ## Source and authority
 
-Derived from the public Penn Brand Standards (https://branding.web-resources.upenn.edu), including the Brand Guidelines PDF updated August 13, 2025. The official site is always the source of truth — if this skill and the official guidelines ever disagree, the official guidelines win, and please open an issue here so the skill can be corrected.
+Derived from the public Penn Brand Standards (https://branding.web-resources.upenn.edu), including the Brand Guidelines PDF updated August 13, 2025. Merchandise rules come from Penn Business Services' *On Your Marks* licensing toolkit for schools, centers, and departments (August 2026), reviewed with Penn Licensing. The official site is always the source of truth — if this skill and the official guidelines ever disagree, the official guidelines win, and please open an issue here so the skill can be corrected.
 
 The University of Pennsylvania name, logo, shield, and related insignia are trademarks of the University of Pennsylvania. This skill references Penn's public brand standards for compliance purposes; official logo files must be downloaded from the [Penn branding site](https://branding.web-resources.upenn.edu/logos-and-branding/download-penn-logos) by members of the University community.
 
