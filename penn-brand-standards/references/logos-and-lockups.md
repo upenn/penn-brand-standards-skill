@@ -66,7 +66,7 @@ Departments don't get custom logos — they extend the Penn identity system with
 - Department name goes **beneath** or **to the right** of the Penn Mark (or of the full logo)
 - The Shield and Penn Mark remain **intact and unaltered**
 - A vertical dividing line (when used) matches the width and color of the University of Pennsylvania logotype
-- Typeface, kerning, and spacing stay consistent with the central identity (ITC Stone Serif)
+- Typeface, kerning, and spacing stay consistent with the central identity: the department or division name in Perpetua (the Penn Mark's typeface), "University of Pennsylvania" in ITC Stone Serif
 - The lockup forms a neat, confined, approximately rectangular area
 - Use proportions to reinforce the relationship between University and department
 - Consider formal vs. informal contexts when choosing the lockup
@@ -82,7 +82,7 @@ A small number of other exceptions apply based on how centers and departments ar
 - The 12 schools each have approved lockups: school name + separation line + University of Pennsylvania logotype.
 - All school logos **must** include the University of Pennsylvania logotype. No exceptions or modifications.
 - Main school logos are required in the most prominent places: promotional publications, school/department websites, business cards, letterhead.
-- **Simplified school logos** (University logotype and dividing line removed, school name expanded to shield height) are for informal uses — website footers, internal newsletters, social media, merchandise — or small sizes where the University of Pennsylvania mark would be illegible. Shield and Penn Mark still remain intact.
+- **Simplified school logos** (University logotype and dividing line removed, school name expanded to shield height) are for informal uses — website footers, internal newsletters, social media, merchandise — or small sizes where the University of Pennsylvania mark would be illegible. Shield and Penn Mark still remain intact. Merchandise also needs a licensed vendor and Penn Licensing approval; see `merchandise.md`.
 - Penn Carey Law: short form "Penn Carey Law"; long form "University of Pennsylvania Carey Law School" (since Sept 1, 2022).
 - School department lockups follow the same pattern as University department lockups, anchored on the school name.
 
