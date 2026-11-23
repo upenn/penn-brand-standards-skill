@@ -45,7 +45,7 @@ Don't:
 - Change the proportions
 - Stretch or distort
 - Change the positioning of logo parts
-- Separate or use shield elements on their own
+- Separate or use shield elements on their own. This includes decoration: a watermark or background texture uses the complete shield, never the chevron, roundels, or other pieces pulled apart.
 - Use the Penn Mark on its own
 - Overlay on patterned backgrounds that render it illegible
 - Redraw, reconstruct, or modify the Shield in any way
