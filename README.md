@@ -29,6 +29,19 @@ cp -R penn-brand-standards-skill/penn-brand-standards <project>/.agents/skills/
 
 Claude Code and compatible agents discover skills in `.agents/skills/` (project) and `~/.agents/skills/` (personal).
 
+## Updating
+
+The skill checks for a newer version the first time it's used in a conversation, and tells you if one is available. It compares the `version` in its `SKILL.md` with the copy on GitHub, and skips the check quietly when it can't reach GitHub. To update, replace your copy of the folder with the latest one:
+
+```bash
+git clone --depth 1 https://github.com/upenn/penn-brand-standards-skill.git /tmp/penn-brand-standards-skill
+rm -rf ~/.agents/skills/penn-brand-standards
+cp -R /tmp/penn-brand-standards-skill/penn-brand-standards ~/.agents/skills/
+rm -rf /tmp/penn-brand-standards-skill
+```
+
+Use the same folder you installed into (for example `<project>/.agents/skills/` or `~/.claude/skills/`). If you uploaded the files to a Claude project, upload the new versions there instead.
+
 ## Usage
 
 The skill triggers automatically whenever you mention Penn, UPenn, University of Pennsylvania, or ask for Penn-branded work. You can also invoke it explicitly:
@@ -62,4 +75,4 @@ The University of Pennsylvania name, logo, shield, and related insignia are trad
 
 ## Contributing
 
-Corrections and updates welcome — especially when Penn revises the guidelines. Open an issue or pull request with the change and, where possible, a link to the official source that justifies it.
+Corrections and updates welcome — especially when Penn revises the guidelines. Open an issue or pull request with the change and, where possible, a link to the official source that justifies it. Every change to the skill should also update `version` in `SKILL.md` (to the date it's merged, as `YYYY.MM.DD`) so installed copies know an update is available.
