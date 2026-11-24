@@ -1,13 +1,13 @@
 ---
 name: penn-brand-standards
-description: Apply the official University of Pennsylvania (Penn) brand standards when creating or reviewing any Penn-branded work — websites, web pages, HTML emails, documents, presentations, posters, letterhead, business cards, merchandise mockups. Covers Penn Red #990000 and Penn Blue #011F5B, the web accent palette, official typography (EB Garamond/Roboto on the web, Perpetua/ITC Stone Serif for the identity), logo variants and usage rules, stationery specs, required web footer links, and merchandise licensing rules (licensed vendors, Penn Licensing approval). Use whenever the user mentions Penn, UPenn, University of Pennsylvania, Quakers, or asks for Penn-branded / red-and-blue university styling — even if they don't say "brand".
+description: Apply the official University of Pennsylvania (Penn) brand standards when creating or reviewing any Penn-branded work — websites, web pages, HTML emails, documents, presentations, posters, letterhead, business cards, merchandise mockups. Covers Penn Red #990000 and Penn Blue #011F5B, the web accent palette, official typography (EB Garamond/Roboto on the web, Perpetua/ITC Stone Serif for the identity), logo variants and usage rules, stationery specs, required web footer links, the official PowerPoint template and slide design rules, and merchandise licensing rules (licensed vendors, Penn Licensing approval). Use whenever the user mentions Penn, UPenn, University of Pennsylvania, Quakers, or asks for Penn-branded / red-and-blue university styling — even if they don't say "brand".
 metadata:
   version: "2026.11.24"
 ---
 
 # Penn Brand Standards
 
-Official source: https://branding.web-resources.upenn.edu (Brand Guidelines PDF updated Aug 13, 2025). Everything below is derived from that site, except the merchandise rules, which come from Penn Business Services' licensing toolkit (Aug 2026). When you follow these rules the output is brand-compliant; when a request conflicts with them, flag the conflict and cite the rule — do not silently improvise on the identity.
+Official source: https://branding.web-resources.upenn.edu (Brand Guidelines PDF updated Aug 13, 2025). Everything below is derived from that site, except the merchandise rules, which come from Penn Business Services' licensing toolkit (Aug 2026), and the presentation rules, which come from University Communications' official PowerPoint template (2027). When you follow these rules the output is brand-compliant; when a request conflicts with them, flag the conflict and cite the rule — do not silently improvise on the identity.
 
 Exceptions to these standards are rare. A small number apply based on how centers and departments are funded or represented. Never assume, suggest, or invent an exception, and never treat the possibility of one as a reason to depart from the standards: apply them as written and flag any deviation. If someone believes an exception covers their center or department, direct them to University Communications (ucomms-web@upenn.edu) to confirm. For merchandise and promotional products, Penn Licensing handles exceptions instead; direct those questions to PennBranding@upenn.edu.
 
@@ -32,7 +32,7 @@ Penn's identity is built on two official colors. Everything else is support.
 | **Penn Red** | `#990000` | 153, 0, 0 | 24, 100, 100, 25 | PMS 201 |
 | **Penn Blue** | `#011F5B` | 1, 31, 91 | 100, 93, 32, 32 | PMS 288 |
 
-Never substitute "close" reds or blues (no `#011F5B` → navy approximations, no bright reds). Web and print values are **not** interchangeable — use hex/RGB for screens, CMYK/PMS for print. Print values used on screen look washed out and degrade the brand.
+Never substitute "close" reds or blues (no `#011F5B` → navy approximations, no bright reds). Slide decks are the one place a different red is approved: the presentation red `#E0201D`, chosen by University Communications because Penn Red is hard to read on Penn Blue. Use it only in presentations; see `references/presentations.md`. Web and print values are **not** interchangeable — use hex/RGB for screens, CMYK/PMS for print. Print values used on screen look washed out and degrade the brand.
 
 ### Web accent palette
 
@@ -73,7 +73,7 @@ Web font embed used by Penn's own site:
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto:400,400i,500,700,700i&display=swap" rel="stylesheet">
 ```
 
-For stationery text sizes (business cards, letterhead), see `references/stationery-and-print.md`.
+For stationery text sizes (business cards, letterhead), see `references/stationery-and-print.md`. Presentations use their own pairing, ITC Stone Serif SemiBold titles with Noto Sans body text; see `references/presentations.md`.
 
 If a licensed font is unavailable (e.g., quick HTML mockups), use EB Garamond as the stand-in serif — do not recreate the Penn mark or logotype in a substitute font; use official logo assets instead.
 
@@ -89,7 +89,7 @@ The full Penn logo = **University Shield + Penn Mark + "University of Pennsylvan
 
 **In generated code** (HTML/email/docs), reference the logo as a local file from the official download (e.g. `assets/img/penn-logo-reversed.png`); use the reversed variant on Penn Blue/dark headers and footers. There is no hotlinkable official logo URL — if the asset can't be bundled, leave a clearly marked placeholder with a comment pointing to the download page rather than a traced or text-drawn approximation.
 
-**Never** (all listed as incorrect usage in the official guide): recolor the logo · change its proportions · stretch or distort it · reposition or separate its parts · use the Penn Mark on its own · use individual elements *of the shield's coat of arms* (the complete shield by itself **is** a sanctioned decorative variant) · overlay it on a patterned background that makes it illegible.
+**Never** (all listed as incorrect usage in the official guide): recolor the logo · change its proportions · stretch or distort it · reposition or separate its parts · use the Penn Mark on its own · use individual elements *of the shield's coat of arms* (the complete shield by itself **is** a sanctioned decorative variant; for watermarks and background textures, always use the complete shield, never the chevron, roundels, or other pieces pulled apart) · overlay it on a patterned background that makes it illegible.
 
 **Restricted symbols**: the University Seal is for Trustees-authorized documents only; the Split P is for Penn Athletics and spirit uses only; the shield with flourish/banner requires Office of the University Secretary permission.
 
@@ -125,16 +125,18 @@ Read these when the task touches their domain (don't read them otherwise):
 - **`references/logos-and-lockups.md`** — every logo variant, department/school lockup rules, co-branding, restricted symbols, and the full do's & don'ts list.
 - **`references/stationery-and-print.md`** — exact business card, letterhead, and envelope specs (dimensions, margins, type sizes, paper stock) for print deliverables.
 - **`references/web-identity.md`** — central web identity details: palette proportions, typography pairings, required footer, and what not to copy from the homepage.
+- **`references/presentations.md`** — slide decks: the official PowerPoint template, presentation colors and fonts, layouts, and design patterns.
 - **`references/merchandise.md`** — merchandise and promotional products: licensed vendors, Penn Licensing approval and timeline, design rules, and what's not allowed.
 
 ## 7. Quick checklist
 
 Before delivering any Penn-branded artifact, verify:
 
-- [ ] Red is exactly `#990000`; blue is exactly `#011F5B` (or print equivalents)
+- [ ] Red is exactly `#990000` (presentations: `#E0201D`); blue is exactly `#011F5B` (or print equivalents)
 - [ ] Print deliverables use CMYK/PMS values; digital uses RGB/hex
 - [ ] Web pages use EB Garamond (+ Roboto accents), not other serifs
 - [ ] Logo is an official file, unmodified, in an allowed color treatment
 - [ ] Web deliverables include the homepage link, logo, and five footer links
 - [ ] Blue-dominant color balance; red and gold used deliberately, not liberally
+- [ ] Presentations: built from the official template (see `references/presentations.md`)
 - [ ] Merchandise: licensed vendor, Penn marks kept separate from other artwork, and Penn Licensing approval (see `references/merchandise.md`)
