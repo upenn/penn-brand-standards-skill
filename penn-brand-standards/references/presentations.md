@@ -1,6 +1,6 @@
 # Penn Presentations (PowerPoint and Slides)
 
-Source: University Communications' official Penn PowerPoint template (2027), approved by University Communications. Get the template here: Box link coming from University Communications. Questions: University Communications, ucomms-web@upenn.edu.
+Source: University Communications' official *PowerPoint Template 2027*. Download the template: https://upenn.box.com/s/sansx8571lhc5djf2091f6clea64uu5p. Questions: University Communications, ucomms-web@upenn.edu.
 
 Read this whenever a task involves a slide deck, presentation, or slide graphic carrying the Penn brand, in PowerPoint, Keynote, Google Slides, or HTML slides. These rules add to the brand standards in `SKILL.md`; they don't replace them.
 
@@ -23,7 +23,7 @@ The template carries the approved backgrounds, logo placements, fonts, and color
 | Light gray | `#F2F2F2` | Backgrounds, table banding |
 | Green | `#6BAA75` | Third chart series only |
 
-- **The presentation red is not Penn Red.** University Communications chose this brighter red (the same red Penn Today uses) because Penn Red `#990000` gets lost on Penn Blue. Use `#E0201D` in presentations. Everywhere else (web, print, stationery, merchandise), Penn Red `#990000` stays the brand red; don't carry the presentation red into other media unless University Communications confirms it.
+- **The presentation red is not Penn Red.** University Communications chose this brighter red (the same red Penn Today uses) because Penn Red `#990000` gets lost on Penn Blue. Use `#E0201D` in presentations only. Websites must not use it, and neither should print, stationery, or merchandise: everywhere outside slide decks, Penn Red `#990000` is the brand red.
 - **Red on Penn Blue is for large text only** (titles, subheads, large numbers). The contrast ratio is about 3.3:1, which passes accessibility guidelines only for large or bold text. Body text on Penn Blue is white.
 - Charts use Penn Blue first, then the presentation red, then green.
 - Don't add other colors, including the web accents (gold, light blue). The template's theme file lists a few more accent colors; they aren't part of the design, so don't use them.
@@ -76,7 +76,7 @@ Pick the layout that matches the content:
 
 ## Checklist
 
-- [ ] Built from the official template (or labeled as an approximation of it)
+- [ ] Built from the official template (or labeled as a draft not built on it)
 - [ ] Penn Blue dominant; presentation red `#E0201D` used for accents only, and only in the deck
 - [ ] Red text on Penn Blue only at title, subhead, or number size; body text on blue is white
 - [ ] Titles and subheads in ITC Stone Serif SemiBold; body in Noto Sans
